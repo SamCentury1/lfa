@@ -1,0 +1,31 @@
+.trips-container {
+    height: 100%;
+    background-image: linear-gradient(60deg, #95bec4 10%, #5979a3 90%);
+    display: flex;
+    flex-direction: column;    
+}
+
+.trips-page-outside-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.landing-view-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+}
+
+.landing-view-header {
+    width: 40%;
+    /* height: 100px; */
+    font-size: 6rem;
+}
